@@ -1,0 +1,654 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>FITPA - Federation of Indian Technology Professionals Associations</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Federation of Indian Technology Professionals Associations">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name=author content="Themefisher">
+  <meta name=generator content="Themefisher FITPA HTML Template v1.0">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="images/logofitpa.png">
+
+  <!-- CSS
+================================================== -->
+ <!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- FontAwesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Animate.css CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<!-- Slick Carousel CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<!-- Colorbox CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/example3/colorbox.min.css">
+
+  <!-- Template styles-->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .banner-carousel-item {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .bg-img-1 {
+      background-image: url('images/slider-main/img01.jpg');
+    }
+
+    .bg-img-2 {
+      background-image: url('images/slider-main/img02.jpg');
+    }
+
+    .bg-img-3 {
+      background-image: url('images/slider-main/img03.jpg');
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      /* darkens the image */
+      z-index: 1;
+    }
+
+    .slider-content {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .slide-title-box,
+    .slide-title,
+    .slide-sub-title {
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .slider .btn {
+      font-weight: 600;
+      border-radius: 30px;
+      padding: 10px 25px;
+      margin: 5px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-highlight {
+      background-color: #f7b500;
+      color: #000;
+      border: none;
+    }
+
+    .btn-highlight:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .btn-outline {
+      border: 2px solid #f7b500;
+      color: #fff;
+      background-color: transparent;
+    }
+
+    .btn-outline:hover {
+      background-color: #f7b500;
+      color: #000;
+    }
+
+    .btn-membership {
+      background-color: #e30613;
+      /* Red */
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      display: inline-block;
+    }
+
+    .btn-login {
+      background-color: #4a4a4a;
+      /* Dark gray */
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      display: inline-block;
+    }
+
+    .btn-membership:hover,
+    .btn-login:hover {
+      opacity: 0.9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="body-inner">
+
+    <span id="top-bar" class="top-bar">
+        
+        <!--/ Container end -->
+    </span>
+    <!--/ Topbar end -->
+<!-- Header start -->
+   <header id="header" class="header-one">
+      <div class="bg-white" style="
+    margin: -13px;
+">
+        <div class="container">
+          <div class="logo-area">
+            <div class="row align-items-center">
+              <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                <a class="d-block" href="index.html">
+                  <img loading="lazy" src="images/logofitpa.png" alt="FITPA">
+                </a>
+              </div><!-- logo end -->
+
+              <div class="col-lg-9 header-right">
+                <ul class="top-info-box">
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                        <p class="info-box-title">Call Us</p>
+                        <p class="info-box-subtitle">+44 (0) 20 8108 2697</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                        <p class="info-box-title">Email Us</p>
+                        <p class="info-box-subtitle">global@fitpa.org</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header-membership">
+                    <a class="btn btn-membership" href="#">MEMBERSHIP CATEGORIES</a>
+                  </li>
+
+                  <li class="header-login">
+                    <a class="btn btn-login" href="#">MEMBER LOG-IN</a>
+                  </li>
+
+                </ul><!-- Ul end -->
+              </div><!-- header right end -->
+            </div><!-- logo area end -->
+
+          </div><!-- Row end -->
+        </div><!-- Container end -->
+      </div>
+
+      <div class="site-navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                  aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item dropdown active">
+                      <a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown">About<i
+                          class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <!-- <li><a href="#">AThe Genesis of FITPA</a></li> -->
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Pillars of FITPA</a></li>
+                        <li><a href="#">Board of Trustees 2025</a></li>
+                        <li><a href="#">FITPA Global Team</a></li>
+                        <li><a href="pricing.html">Past Trustees</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Our Chapter</a>
+                      <!-- <ul class="dropdown-menu" role="menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Our People</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                      </ul> -->
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Our Programs<i
+                          class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">FITPA Global Angels</a></li>
+                        <li><a href="#">FITPA Young Entrepreneurs</a></li>
+                        <li><a href="#">FITPA Nurture</a></li>
+                        <li><a href="#">FITPA Global Awards</a></li>
+                        <li><a href="#">FITPA Chapter Excellence Awards</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i
+                          class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Global Networking</a></li>
+                        <li><a href="#">Leadership & Mentorship</a></li>
+                        <li><a href="#">Startup Support</a></li>
+                        <li><a href="#">Skill Development</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Features <i
+                          class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Building Strong Networks</a></li>
+                        <li><a href="#">Leveraging Diaspora Connections</a></li>
+                        <!-- <li class="dropdown-submenu">
+                          <a href="#!" class="dropdown-toggle" data-toggle="dropdown">Parent Menu</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#!">Child Menu 1</a></li>
+                            <li><a href="#!">Child Menu 2</a></li>
+                            <li><a href="#!">Child Menu 3</a></li>
+                          </ul>
+                        </li> -->
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Members<i
+                          class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Founding Members</a></li>
+                        <li><a href="#">Advisory Board</a></li>
+                        <li><a href="#">Executive Management</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <!--/ Col end -->
+          </div>
+          <!--/ Row end -->
+
+          <div class="nav-search">
+            <span id="search"><i class="fa fa-search"></i></span>
+          </div><!-- Search end -->
+
+          <div class="search-block" style="display: none;">
+            <label for="search-field" class="w-100 mb-0">
+              <input type="text" class="form-control" id="search-field" placeholder="Type what you want and enter">
+            </label>
+            <span class="search-close">&times;</span>
+          </div><!-- Site search end -->
+        </div>
+        <!--/ Container end -->
+
+      </div>
+      <!--/ Navigation end -->
+    </header>
+<!--/ Header end -->
+<div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
+  <div class="banner-text">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="banner-heading">
+                <h1 class="banner-title">About</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">FITPA</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+              </div>
+          </div><!-- Col end -->
+        </div><!-- Row end -->
+    </div><!-- Container end -->
+  </div><!-- Banner text end -->
+</div><!-- Banner area end --> 
+
+<section id="main-container" class="main-container">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6" style="text-align: justify;">
+          <h3 class="column-title">Who We Are</h3>
+          <p> FITPA is an international, not-for-profit federation committed to fostering connections between
+            technology enterprises and the global expertise of entrepreneurs of Indian origin including those
+            from American, British, and German Indian communities. With a strong foundation in the United
+            Kingdom and United States, and a rapidly growing presence throughout Europe, the Middle East,
+            and beyond, FITPA enables businesses to expand and thrive through strategic networking and
+            access to emerging markets.</p>
+          <blockquote>
+            <p> Whether your objective is to enter new markets or build dynamic, cross-border teams, FITPA acts as
+              a crucial link—integrating the worldʼs technology ecosystems with the innovation, leadership, and
+              entrepreneurial excellence of the Indian diaspora.</p>
+          </blockquote>
+          <p>FITPA serves as a launchpad for tech-driven ventures, helping them find support, opportunity, and growth
+            through our extensive network of global partners.</p>
+
+        </div><!-- Col end -->
+
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          
+          <div id="page-slider" class="page-slider small-bg">
+
+              <div class="item" style="background-image:url(images/slider-pages/slide-page1.jpg)">
+                <div class="container">
+                    <div class="box-slider-content">
+                      <div class="box-slider-text">
+                          <h2 class="box-slide-title">Global Connections</h2>
+                      </div>    
+                    </div>
+                </div>
+              </div><!-- Item 1 end -->
+
+              <div class="item" style="background-image:url(images/slider-pages/slide-page2.jpg)">
+                <div class="container">
+                    <div class="box-slider-content">
+                      <div class="box-slider-text">
+                          <h2 class="box-slide-title">Expert Mentorship</h2>
+                      </div>    
+                    </div>
+                </div>
+              </div><!-- Item 1 end -->
+
+              <div class="item" style="background-image:url(images/slider-pages/slide-page3.jpg)">
+                <div class="container">
+                    <div class="box-slider-content">
+                      <div class="box-slider-text">
+                          <h2 class="box-slide-title">Growth Markets</h2>
+                      </div>    
+                    </div>
+                </div>
+              </div><!-- Item 1 end -->
+          </div><!-- Page slider end-->          
+        
+
+        </div><!-- Col end -->
+    </div><!-- Content row end -->
+
+  </div><!-- Container end -->
+</section><!-- Main container end -->
+
+
+<section id="facts" class="facts-area dark-bg">
+  <div class="container">
+    <div class="facts-wrapper">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 ts-facts">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact1.png" alt="facts-img" style="
+                    border-radius: 40px;
+                    background-color: #f8f9fa;
+                    padding: 3px;
+                ">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="13">0</span></h2>
+                <h3 class="ts-facts-title">Global Chapters</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact2.png" alt="facts-img" style="
+                    border-radius: 40px;
+                    background-color: #f8f9fa;
+                    padding: 3px;
+                ">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="1700">0</span></h2>
+                <h3 class="ts-facts-title">Indian-Origin Tech Leaders</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact3.png" alt="facts-img" style="
+                    border-radius: 40px;
+                    background-color: #f8f9fa;
+                    padding: 3px;
+                ">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="210">0</span></h2>
+                <h3 class="ts-facts-title">Startup Collaborations</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact4.png" alt="facts-img" style="
+                    border-radius: 40px;
+                    background-color: #f8f9fa;
+                    padding: 3px;
+                ">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="44">0</span></h2>
+                <h3 class="ts-facts-title">Country Partnerships</h3>
+              </div>
+          </div><!-- Col end -->
+
+        </div> <!-- Facts end -->
+    </div>
+    <!--/ Content row end -->
+  </div>
+  <!--/ Container end -->
+</section><!-- Facts end -->
+
+<section id="ts-team" class="ts-team">
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-lg-12">
+          <h2 class="section-title">Quality Service</h2>
+          <h3 class="section-sub-title" style="
+              font-size: 30px;
+              text-transform: capitalize;
+              font-weight: bolder;
+          ">Professional Team</h3>
+        </div>
+    </div><!--/ Title row end -->
+
+    <div class="row">
+        <div class="col-lg-12">
+          <div id="team-slide" class="team-slide">
+              <div class="item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" class="w-100" src="images/team/team1.png" alt="team-img">
+                    </div>
+                    <div class="ts-team-content">
+                      <h3 class="ts-name">Kumar Vuppala</h3>
+                      <p class="ts-designation">Founding Member & Chairperson</p>
+                      <p class="ts-description">Kumar is a Harvard-educated tech visionary with 36+ years of experience in SAP, AI, Cloud, and Blockchain innovation.
+                      </p>
+                      <div class="team-social-icons">
+                          <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-google-plus"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                      </div><!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" class="w-100" src="images/team/team2.jpg" alt="team-img">
+                    </div>
+                    <div class="ts-team-content">
+                      <h3 class="ts-name">Nanda Bhagi</h3>
+                      <p class="ts-designation">Founding Member & Chairperson</p>
+                      <p class="ts-description">Nanda Bhagi is a dynamic leader skilled in tech, renewable energy, and sports, driving solutions and funding access for entrepreneurs.</p>
+                      <div class="team-social-icons">
+                          <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                      </div><!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 2 end -->
+
+              <div class="item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" class="w-100" src="images/team/team4.jpg" alt="team-img">
+                    </div>
+                    <div class="ts-team-content">
+                      <h3 class="ts-name">Aswani Kumar Vutukuri</h3>
+                      <p class="ts-designation">Founding Member & Chairperson</p>
+                      <p class="ts-description">Aswani is a strategic SAP leader and advisor with global expertise in S/4HANA, innovation, and complex program delivery.</p>
+                      <div class="team-social-icons">
+                          <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-google-plus"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                      </div><!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 3 end -->
+
+              <div class="item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      <img loading="lazy" class="w-100" src="images/team/team3.jpg" alt="team-img">
+                    </div>
+                    <div class="ts-team-content">
+                      <h3 class="ts-name">Rajendra Alapaty</h3>
+                      <p class="ts-designation">Chief Technology Advisor</p>
+                      <p class="ts-description">Rajendra is a seasoned tech entrepreneur and e-commerce architect with 25+ years of experience, passionate about empowering startups and mentoring technologists.</p>
+                      <div class="team-social-icons">
+                          <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-google-plus"></i></a>
+                          <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                      </div><!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 4 end -->
+
+           <!-- Team 5 end -->
+
+             <!-- Team 6 end -->
+
+          </div><!-- Team slide end -->
+        </div>
+    </div><!--/ Content row end -->
+  </div><!--/ Container end -->
+</section><!--/ Team end -->
+
+    <footer id="footer" class="footer text-white pt-5" style="background-color:#999;">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <!-- About -->
+          <div class="col-md-3">
+            <img src="images/logofitpa.png" alt="FITPA" width="160" class="mb-3">
+            <p>Fostering innovation and support for entrepreneurs worldwide through impactful collaboration and
+              knowledge-sharing.</p>
+          </div>
+
+          <!-- Help Desk -->
+          <div class="col-md-3">
+            <h5 class="footer-title">Help Desk</h5>
+            <ul class="list-unstyled">
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Data Privacy & Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+
+          <!-- Important Link -->
+          <div class="col-md-3">
+            <h5 class="footer-title">Important Link</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Sponsors & Partners</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-3">
+            <h5 class="footer-title">Contact</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-map-marker-alt me-2"></i> 1st floor, 85 Uxbridge Rd,<br> London W5 5TH, UK</li>
+              <li><i class="fas fa-phone me-2"></i> +44 (0)20 3330 0319</li>
+              <li><i class="fas fa-envelope me-2"></i>global@fitpa.org</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="text-center py-3 mt-4" style="background-color: #a00000;">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+          <span>Copyright © 2025 – FITPA</span>
+          <div>
+            <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer><!-- Footer end -->
+
+
+  <!-- Javascript Files
+  ================================================== -->
+
+  <!-- initialize jQuery Library -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap jQuery -->
+  <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+  <!-- Slick Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="plugins/shuffle/shuffle.min.js" defer></script>
+
+
+  <!-- Google Map API Key-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+  <!-- Google Map Plugin-->
+  <script src="plugins/google-map/map.js" defer></script>
+
+  <!-- Template custom -->
+  <script src="js/script.js"></script>
+
+  </div><!-- Body inner end -->
+  </body>
+
+  </html>
